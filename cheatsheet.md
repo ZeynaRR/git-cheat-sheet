@@ -40,3 +40,28 @@ to delete a branch:
 git branch -d nameOfTheBranch
 ```
 
+## To configurate git after installing it on a new machine
+
+```sh
+git config --global user.name "My Name"
+git config --global user.email "address@mail.com"
+```
+# To list your remotes
+
+```sh 
+git remote -v
+```
+
+# To add a remote
+
+you'll need the url of the repo
+
+```sh 
+git remote add origin urlOfRemote
+```
+
+# To change a remote url
+
+```sh 
+git remote set-url origin urlOfRemote
+```
