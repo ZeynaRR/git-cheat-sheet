@@ -1,5 +1,10 @@
 # My git cheatsheet
 
+## check history of commits on the branch you're working on
+
+```sh 
+git log 
+```
 ## git branch
 
 Branching allows you to keep modification in a separate space. After some time on your feature branch.
@@ -12,19 +17,26 @@ To be persisted, this "pointer like" reference is stored into a file (remember: 
 
 ## Command to list your branches
 
-&nbsp; git branch
-
+```sh 
+git branch
+```
 ## Command to create a branch
 
 create a new branch then checkout:
-&nbsp; git checkout -b nameOfTheBranch
+```sh 
+git checkout -b nameOfTheBranch
+```
 
 create a new branch:
-&nbsp; git branch nameOfTheBranch 
+```sh 
+git branch nameOfTheBranch 
+```
 
 ## Command to delete a branch
 
 to delete a branch:
 
-&nbsp; git branch -d nameOfTheBranch
+```sh 
+git branch -d nameOfTheBranch
+```
 
