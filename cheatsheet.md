@@ -17,14 +17,14 @@ To be persisted, this "pointer like" reference is stored into a file (remember: 
 ## Command to create a branch
 
 create a new branch then checkout:
-&nbsp; git checkout -b features/1234-new-killing-feature 
+&nbsp; git checkout -b nameOfTheBranch
 
 create a new branch:
-&nbsp; git branch features/1234-new-killing-feature 
+&nbsp; git branch nameOfTheBranch 
 
 ## Delete a branch
 
 to delete a branch:
 
-&nbsp; git branch -d features/1234-new-killing-feature
+&nbsp; git branch -d nameOfTheBranch
 
