@@ -22,7 +22,7 @@ create a new branch then checkout:
 create a new branch:
 &nbsp; git branch nameOfTheBranch 
 
-## Delete a branch
+## Command to delete a branch
 
 to delete a branch:
 
